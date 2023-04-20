@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+// import Counter from './Counter';
+// import Ramraj from './Ramraj';
+// import {Btn} from './Btn';
+// import Btn from './Btn';
+import InputLi from './InputLi'
+import './Todo.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  <div id="dI">
+    {/* <Counter/>
+    <Ramraj/> */}
+    {/* <Btn/> */}
+    <InputLi/>
+    
+  </div>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+);
